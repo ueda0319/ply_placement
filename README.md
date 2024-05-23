@@ -1,1 +1,2 @@
 # ply_placement
+plyで読み込んだ点群オブジェクトをランダムに配置したシーンを生成し、mmdetection3d向けのScanNet形式で保存する
