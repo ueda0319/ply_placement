@@ -1,4 +1,4 @@
-import open3d
+#import open3d
 import numpy as np
 import glob
 import random
@@ -8,7 +8,7 @@ import pickle
 
 from label_mapping import load_label_mapping
 
-class_labels = {"airplane": 40} #load_label_mapping()
+class_labels = load_label_mapping()
 
 def generate_floor(point_count: int = 16384, floor_l: float = 8.0, floor_w: float = 8.0, floor_h: float = 0.03):
     floor_points = np.random.rand(point_count, 6)
